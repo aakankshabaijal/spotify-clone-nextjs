@@ -28,6 +28,10 @@ const Sidebar = () => {
 				spotifyApi.getUserPlaylists().then((data) => {
 					setPlaylists(data.body.items);
 				});
+
+				// spotifyApi.getPlaylist(playlistId).then((data) => {
+				// 	console.log(data);
+				// });
 			}
 		},
 		[ session, spotifyApi ]
@@ -36,7 +40,7 @@ const Sidebar = () => {
 	// console.log(playlists);
 
 	return (
-		<div className="text-gray-500 p-5 text-sm border-r border-gray-900 overflow-y-scroll h-screen scrollbar-hide">
+		<div className="text-gray-500 p-5 text-xs lg:text-sm border-r border-gray-900 overflow-y-scroll h-screen scrollbar-hide sm:max-w-[12rem] lg:max-w-[14rem] hidden md:inline-flex">
 			<div className="space-y-4">
 				<button className="flex items-center space-x-2 hover:text-white" onClick={() => signOut()}>
 					<p>Logout</p>
