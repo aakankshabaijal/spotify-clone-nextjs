@@ -3,6 +3,8 @@
 
 This project is a clone of the popular music streaming app Spotify. It uses the Spotify API to authenticate the user, load their playlists and control playback and volume on their recognized devices.
 
+https://spotify-clone-nextjs-sage.vercel.app
+
 ## Tech Stack
 
 - React 
