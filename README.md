@@ -1,29 +1,34 @@
-# Next.js + Tailwind CSS Example
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+# Spotify Clone
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+This project is a clone of the popular music streaming app Spotify. It uses the Spotify API to authenticate the user, load their playlists and control playback and volume on their recognized devices.
 
-## Preview
+## Tech Stack
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+- React 
+- Next.js 
+- Recoil
+- Tailwind CSS
+- Vercel (for deployment)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## Features
 
-## Deploy your own
+- Fetch 20 Recently Added Spotify Playlists and Control Music playback using Spotify API
+- User authentication with Spotify and NextAuth to persist user's logged in state
+- Responsive UI using Tailwind CSS
+- Next.js Middleware to handle authethicated user access
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+## Screenshots
+<img width="960" alt="login_screen" src="https://user-images.githubusercontent.com/66862584/170701986-24ca3ed0-a77d-4697-ae39-ddee97ffb2a0.png">
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+<img width="960" alt="coding_mode_2" src="https://user-images.githubusercontent.com/66862584/170702021-639c46ae-e8d7-4433-a4c8-a04794f004b2.png">
 
-## How to use
+<img width="960" alt="homework_vibes" src="https://user-images.githubusercontent.com/66862584/170701733-ede520a9-536e-4502-9f2b-4b0297883f98.png">
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+## Limitations
+Due to a free Spotify Developer account, only 25 people can be given access for authorization, otherwise we have to submit a quota extension request. This is keeping in mind the number of API calls and load that Spotify servers have to manage. Hence, I have created a dummy Spotify account which can be used to login and view the project. 
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+`Email Id : pemag78530@sceath.com`
+`Password : tempaccount`
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+
