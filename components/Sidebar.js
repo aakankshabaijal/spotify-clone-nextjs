@@ -40,7 +40,7 @@ const Sidebar = () => {
 	// console.log(playlists);
 
 	return (
-		<div className="text-gray-400 p-5 text-xs lg:text-sm border-r border-black overflow-y-scroll h-screen scrollbar-hide sm:max-w-[12rem] lg:max-w-[14rem] hidden md:inline-flex">
+		<div className="text-gray-400 p-5 text-xs lg:text-sm border-r border-black overflow-y-scroll h-screen scrollbar-hide sm:max-w-[12rem] lg:max-w-[14rem] hidden md:inline-flex pb-36">
 			<div className="space-y-4 mr-8">
 				<button className="flex items-center space-x-2 hover:text-white">
 					<HomeIcon className="h-5 w-5" />
